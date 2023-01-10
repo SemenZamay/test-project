@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: brown;
+    margin: 20px;
+}
+
+h2 {
+    color: crimson;
+    text-align: center;
+}
+
+p {
+    border: 2px solid blueviolet;
+    padding: 5px;
+}
+
+.flex-container {
+    display: flex;
+    border: 3px solid #eee;
+    border-radius: 4px;
+}
+
+.flex-item {
+    width: 100px;
+    line-height: 100px;
+    margin: 10px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 24px;
+}
+
+.box-1 {
+    background-color: blueviolet;
+}
+
+.box-2 {
+    background-color: darkseagreen;
+}
+
+.box-3 {
+    background-color: dimgray;
+}
+
+.box-4 {
+    background-color: mediumpurple;
+}
+
+.box-5 {
+    background-color: darkorange;
+}
