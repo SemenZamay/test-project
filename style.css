@@ -24,7 +24,15 @@ li {
     position: relative;
     padding-left: 50px;
     text-align: left;
-    
+    transition: delay 0.5em;
+}
+
+img {
+    transition: 1s;
+}
+
+img:hover {
+    opacity: .5;
 }
 
 li::before {
@@ -39,7 +47,6 @@ li::before {
     padding: 5px;
     display: block;
     line-height: 34px;
-    transition-delay:1s;
     counter-increment: section;
     content: counter(section);
     text-align: center;
